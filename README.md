@@ -28,12 +28,12 @@ A fast, lightweight terminal chatbot that responds to each input independently, 
 - 🧩 **Built with LangGraph** for clear state flow.
 - 🔧 Easily customizable for different prompt styles or specific tasks.
 
+---
 
 ### 🧠 Agent 2 — Memory Retention Chatbot
 
 This project is a memory-enabled conversational AI agent built using [LangGraph](https://www.langchain.dev/langgraph/), [LangChain Core](https://python.langchain.com/docs/core/), and [ChatOllama](https://ollama.com). Unlike simple chatbots, this agent **remembers your entire conversation**, enabling multi-turn, context-aware interactions — just like a real assistant.
 
----
 
 ## 🌟 Key Features
 
@@ -43,7 +43,6 @@ This project is a memory-enabled conversational AI agent built using [LangGraph]
 - ⚙️ **Powered by `phi`** – Uses the lightweight and efficient `phi` model from Ollama
 - 🧩 **Modular Code** – Built with LangGraph's stateful architecture and easily extendable
 
----
 
 ## 📁 File
 
