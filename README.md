@@ -44,10 +44,4 @@ This project is a memory-enabled conversational AI agent built using [LangGraph]
 - 🧩 **Modular Code** – Built with LangGraph's stateful architecture and easily extendable
 
 
-## 📁 File
-
-- `Agent_2.py` – The full implementation of the memory-retaining chatbot
-
----
-
 
