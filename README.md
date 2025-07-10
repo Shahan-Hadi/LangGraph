@@ -1,20 +1,26 @@
-# 🧠 LangGraph Projects with ChatOllama
+# 🤖 LangGraph-Based Conversational Agents
 
-This repository showcases two simple but powerful AI projects built using [LangGraph](https://www.langchain.dev/langgraph/) and [ChatOllama](https://ollama.com/). Both projects use a lightweight local LLM (`phi`) to demonstrate conversational agents — one with memory retention and one as a basic stateless bot.
+This repository features two AI-powered agents built with [LangGraph](https://www.langchain.dev/langgraph/) and [ChatOllama](https://ollama.com):
+
+1. 🗣️ **Agent 1 – A Simple BOT** (stateless, powered by `llama3`)
+2. 🧠 **Agent 2 – Memory Retention BOT** (conversation history, powered by `phi`)
+3. 💻 A Streamlit web UI for interacting with Agent 1
 
 ---
 
-## 📌 Projects
+## 🧠 Projects Overview
 
-### 1. 🤖 A Simple BOT
+### 1. 🗣️ Agent 1 — A Simple BOT (Stateless)
 
-A minimal chatbot built using LangGraph and the `phi` model from Ollama. This bot processes each user input independently without remembering previous messages.
+> `File: Agent_1.py`
 
-**Features:**
-- Stateless design
-- Uses LangGraph for flow control
-- Lightweight and beginner-friendly
+A lightweight, terminal-based chatbot that uses the `llama3` model and handles one input at a time. Perfect for short, single-turn conversations.
 
-**Run it with:**
+#### 🔹 Features:
+- Stateless (no memory of previous input)
+- Built with LangGraph and ChatOllama
+- Fast and minimal
+
+#### ▶️ Run:
 ```bash
-python simple_bot.py
+python Agent_1.py
